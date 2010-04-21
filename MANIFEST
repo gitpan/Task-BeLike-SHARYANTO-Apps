@@ -1,0 +1,10 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+README
+dist.ini
+lib/Task/BeLike/SHARYANTO/Apps.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+t/task-bogus.t

@@ -1,0 +1,104 @@
+NAME
+    Task::BeLike::SHARYANTO::Apps - Install modules currently used in all
+    SHARYANTO's current applications
+
+VERSION
+    version 0.01
+
+DESCRIPTION
+    This task will install modules currently used in all my current
+    applications. Not included are modules:
+
+    *   already in 5.10 core;
+
+    *   used in development (see Task::BeLike::SHARYANTO::Devel);
+
+    *   required by my very specific applications;
+
+    *   required by my old/obsolete applications;
+
+        The purpose of this distribution is to make it easy to setup an
+        environment with all my required/preferred modules. Thus, this
+        distribution is probably only useful to me or people who use my
+        applications. I apologize if the existence of this distribution on
+        CPAN annoys you. In my defense, I am just following a trend started
+        by RJBS, so blame him if you want :-)
+
+TASK CONTENTS
+  Included modules
+   Algorithm::BinPack
+   App::Options
+   autodie
+   Carp::Always
+   Crypt::PasswdMD5
+   Data::Dump
+   Data::Schema
+   Date::Manip
+   Date::Parse
+   DateTime
+   DateTime::Format::DateManip
+   DBD::SQLite
+   DBI
+   Digest::CRC
+   Email::Address
+   File::HomeDir
+   File::Slurp
+   File::Type
+   Finance::Bank::ID::BCA
+   Finance::Bank::ID::Mandiri
+   HTML::Parser
+     HTML::Parser, also contains HTML::Entities, HTML::HeadParser,
+     HTML::LinkExtor, HTML::TokeParser
+
+   iCal::Parser
+   Image::Size
+   JSON
+   LWP
+     libwww-perl, also contains LWP::Simple, HTTP::*, etc.
+
+   Lingua::Han::PinYin
+   List::MoreUtils
+   Log::Any::App
+   Mail::Internet
+   Mail::POP3Client
+   Mail::QmailQueue
+   Mail::Sender
+   Mail::Sendmail
+   MIME::Parser
+   MP3::Tag
+   Net::BitTorrent::File
+   Path::Class
+   Proc::PID::File
+   Proc::Reliable
+   Statistics::Descriptive
+   Term::ReadKey
+   Term::ReadLine
+   Text::Unaccent
+   Tie::Cache
+   URI
+     URI, also contains URI::Escape
+
+   URI::Find
+   WWW::Google::Images
+   WWW::Mechanize
+   XML::RSSLite
+   YAML
+   YAML::Syck
+   YAML::Tiny
+   YAML::XS
+AUTHOR
+      Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
+POD ERRORS
+    Hey! The above document had some coding errors, which are explained
+    below:
+
+    Around line 41:
+        You forgot a '=back' before '=head1'
+
