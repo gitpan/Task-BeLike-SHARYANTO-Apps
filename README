@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.01
+    version 0.02
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -17,12 +17,12 @@ DESCRIPTION
 
     *   required by my old/obsolete applications;
 
-        The purpose of this distribution is to make it easy to setup an
-        environment with all my required/preferred modules. Thus, this
-        distribution is probably only useful to me or people who use my
-        applications. I apologize if the existence of this distribution on
-        CPAN annoys you. In my defense, I am just following a trend started
-        by RJBS, so blame him if you want :-)
+    The purpose of this distribution is to make it easy to setup an
+    environment with all my required/preferred modules. Thus, this
+    distribution is probably only useful to me or people who use my
+    applications. I apologize if the existence of this distribution on CPAN
+    annoys you. In my defense, I am just following a trend started by RJBS,
+    so blame him if you want :-)
 
 TASK CONTENTS
   Included modules
@@ -94,11 +94,4 @@ COPYRIGHT AND LICENSE
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
-
-POD ERRORS
-    Hey! The above document had some coding errors, which are explained
-    below:
-
-    Around line 41:
-        You forgot a '=back' before '=head1'
 

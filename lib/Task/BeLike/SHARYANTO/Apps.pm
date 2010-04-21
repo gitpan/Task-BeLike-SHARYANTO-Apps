@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.01';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.02';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
@@ -14,7 +14,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -30,6 +30,8 @@ applications. Not included are modules:
 =item * required by my very specific applications;
 
 =item * required by my old/obsolete applications;
+
+=back
 
 The purpose of this distribution is to make it easy to setup an
 environment with all my required/preferred modules. Thus, this

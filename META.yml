@@ -67,4 +67,4 @@ requires:
   YAML::XS: 0
   autodie: 0
   iCal::Parser: 0
-version: 0.01
+version: 0.02
