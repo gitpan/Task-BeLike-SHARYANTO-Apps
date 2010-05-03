@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.02';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.03';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
@@ -14,7 +14,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 
@@ -127,6 +127,10 @@ RJBS, so blame him if you want :-)
 
 =head3 Proc::Reliable
 
+=head3 REST::Google::Search::Images
+
+ REST::Google, also contains REST::Google::Search
+
 =head3 Statistics::Descriptive
 
 =head3 Term::ReadKey
@@ -142,8 +146,6 @@ RJBS, so blame him if you want :-)
  URI, also contains URI::Escape
 
 =head3 URI::Find
-
-=head3 WWW::Google::Images
 
 =head3 WWW::Mechanize
 

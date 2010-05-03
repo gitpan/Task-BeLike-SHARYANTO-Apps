@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.02
+    version 0.03
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -70,6 +70,9 @@ TASK CONTENTS
    Path::Class
    Proc::PID::File
    Proc::Reliable
+   REST::Google::Search::Images
+     REST::Google, also contains REST::Google::Search
+
    Statistics::Descriptive
    Term::ReadKey
    Term::ReadLine
@@ -79,7 +82,6 @@ TASK CONTENTS
      URI, also contains URI::Escape
 
    URI::Find
-   WWW::Google::Images
    WWW::Mechanize
    XML::RSSLite
    YAML

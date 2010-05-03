@@ -25,10 +25,9 @@ my %module_build_args = (
                                        'Crypt::PasswdMD5' => '0',
                                        'Image::Size' => '0',
                                        'YAML::XS' => '0',
-                                       'WWW::Google::Images' => '0',
-                                       'Data::Dump' => '0',
-                                       'autodie' => '0',
                                        'Mail::Sender' => '0',
+                                       'autodie' => '0',
+                                       'Data::Dump' => '0',
                                        'Algorithm::BinPack' => '0',
                                        'Text::Unaccent' => '0',
                                        'Digest::CRC' => '0',
@@ -44,6 +43,7 @@ my %module_build_args = (
                                        'Date::Parse' => '0',
                                        'Lingua::Han::PinYin' => '0',
                                        'Proc::Reliable' => '0',
+                                       'REST::Google::Search::Images' => '0',
                                        'Term::ReadLine' => '0',
                                        'Mail::Sendmail' => '0',
                                        'XML::RSSLite' => '0',
@@ -75,7 +75,7 @@ my %module_build_args = (
                        'configure_requires' => {
                                                  'Module::Build' => '0.3601'
                                                },
-                       'dist_version' => '0.02'
+                       'dist_version' => '0.03'
                      );
 
 

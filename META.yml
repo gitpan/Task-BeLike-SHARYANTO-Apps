@@ -51,6 +51,7 @@ requires:
   Path::Class: 0
   Proc::PID::File: 0
   Proc::Reliable: 0
+  REST::Google::Search::Images: 0
   Statistics::Descriptive: 0
   Term::ReadKey: 0
   Term::ReadLine: 0
@@ -58,7 +59,6 @@ requires:
   Tie::Cache: 0
   URI: 0
   URI::Find: 0
-  WWW::Google::Images: 0
   WWW::Mechanize: 0
   XML::RSSLite: 0
   YAML: 0
@@ -67,4 +67,4 @@ requires:
   YAML::XS: 0
   autodie: 0
   iCal::Parser: 0
-version: 0.02
+version: 0.03
