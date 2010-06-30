@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.03
+    version 0.04
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -28,66 +28,15 @@ TASK CONTENTS
   Included modules
    Algorithm::BinPack
    App::Options
-   autodie
-   Carp::Always
-   Crypt::PasswdMD5
-   Data::Dump
-   Data::Schema
-   Date::Manip
-   Date::Parse
-   DateTime
-   DateTime::Format::DateManip
-   DBD::SQLite
-   DBI
-   Digest::CRC
-   Email::Address
-   File::HomeDir
-   File::Slurp
-   File::Type
-   Finance::Bank::ID::BCA
-   Finance::Bank::ID::Mandiri
-   HTML::Parser
      HTML::Parser, also contains HTML::Entities, HTML::HeadParser,
      HTML::LinkExtor, HTML::TokeParser
 
-   iCal::Parser
-   Image::Size
-   JSON
-   LWP
      libwww-perl, also contains LWP::Simple, HTTP::*, etc.
 
-   Lingua::Han::PinYin
-   List::MoreUtils
-   Log::Any::App
-   Mail::Internet
-   Mail::POP3Client
-   Mail::QmailQueue
-   Mail::Sender
-   Mail::Sendmail
-   MIME::Parser
-   MP3::Tag
-   Net::BitTorrent::File
-   Path::Class
-   Proc::PID::File
-   Proc::Reliable
-   REST::Google::Search::Images
      REST::Google, also contains REST::Google::Search
 
-   Statistics::Descriptive
-   Term::ReadKey
-   Term::ReadLine
-   Text::Unaccent
-   Tie::Cache
-   URI
      URI, also contains URI::Escape
 
-   URI::Find
-   WWW::Mechanize
-   XML::RSSLite
-   YAML
-   YAML::Syck
-   YAML::Tiny
-   YAML::XS
 AUTHOR
       Steven Haryanto <stevenharyanto@gmail.com>
 
@@ -96,4 +45,170 @@ COPYRIGHT AND LICENSE
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
+
+POD ERRORS
+    Hey! The above document had some coding errors, which are explained
+    below:
+
+    Around line 53:
+        Unknown directive: =pkh
+
+    Around line 55:
+        Unknown directive: =pkg
+
+    Around line 57:
+        Unknown directive: =pkg
+
+    Around line 59:
+        Unknown directive: =pkg
+
+    Around line 61:
+        Unknown directive: =pkg
+
+    Around line 63:
+        Unknown directive: =pkg
+
+    Around line 65:
+        Unknown directive: =pkg
+
+    Around line 67:
+        Unknown directive: =pkg
+
+    Around line 69:
+        Unknown directive: =pkg
+
+    Around line 71:
+        Unknown directive: =pkg
+
+    Around line 73:
+        Unknown directive: =pkg
+
+    Around line 75:
+        Unknown directive: =pkg
+
+    Around line 77:
+        Unknown directive: =pkg
+
+    Around line 79:
+        Unknown directive: =pkg
+
+    Around line 81:
+        Unknown directive: =pkg
+
+    Around line 83:
+        Unknown directive: =pkg
+
+    Around line 85:
+        Unknown directive: =pkg
+
+    Around line 87:
+        Unknown directive: =pkg
+
+    Around line 89:
+        Unknown directive: =pkg
+
+    Around line 91:
+        Unknown directive: =pkg
+
+    Around line 93:
+        Unknown directive: =pkg
+
+    Around line 95:
+        Unknown directive: =pkg
+
+    Around line 100:
+        Unknown directive: =pkg
+
+    Around line 102:
+        Unknown directive: =pkg
+
+    Around line 104:
+        Unknown directive: =pkg
+
+    Around line 106:
+        Unknown directive: =pkg
+
+    Around line 110:
+        Unknown directive: =pkg
+
+    Around line 112:
+        Unknown directive: =pkg
+
+    Around line 114:
+        Unknown directive: =pkg
+
+    Around line 116:
+        Unknown directive: =pkg
+
+    Around line 118:
+        Unknown directive: =pkg
+
+    Around line 120:
+        Unknown directive: =pkg
+
+    Around line 122:
+        Unknown directive: =pkg
+
+    Around line 124:
+        Unknown directive: =pkg
+
+    Around line 126:
+        Unknown directive: =pkg
+
+    Around line 128:
+        Unknown directive: =pkg
+
+    Around line 130:
+        Unknown directive: =pkg
+
+    Around line 132:
+        Unknown directive: =pkg
+
+    Around line 134:
+        Unknown directive: =pkg
+
+    Around line 136:
+        Unknown directive: =pkg
+
+    Around line 138:
+        Unknown directive: =pkg
+
+    Around line 142:
+        Unknown directive: =pkg
+
+    Around line 144:
+        Unknown directive: =pkg
+
+    Around line 146:
+        Unknown directive: =pkg
+
+    Around line 148:
+        Unknown directive: =pkg
+
+    Around line 150:
+        Unknown directive: =pkg
+
+    Around line 152:
+        Unknown directive: =pkg
+
+    Around line 156:
+        Unknown directive: =pkg
+
+    Around line 158:
+        Unknown directive: =pkg
+
+    Around line 160:
+        Unknown directive: =pkg
+
+    Around line 162:
+        Unknown directive: =pkg
+
+    Around line 164:
+        Unknown directive: =pkg
+
+    Around line 166:
+        Unknown directive: =pkg
+
+    Around line 168:
+        Unknown directive: =pkg
 

@@ -1,10 +1,21 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
+0.04    2010-06-30
+
+        Replace Text::Unaccent with Text::Unaccent::PurePerl.
+
+        Add App::perlmv, Data::Dump::PHP, Data::Dump::Partial.
+
+
 0.03    2010-04-29
+
         Replace WWW::Google::Images with REST::Google::Search::Images.
 
 0.02    2010-04-21
+
         Fixed POD error.
 
+
 0.01    2010-04-21
+
         First release.

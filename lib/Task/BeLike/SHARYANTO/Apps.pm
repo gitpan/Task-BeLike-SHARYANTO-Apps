@@ -1,9 +1,11 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.03';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.04';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
+
+1;
 
 __END__
 =pod
@@ -14,7 +16,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
@@ -48,116 +50,122 @@ RJBS, so blame him if you want :-)
 
 =head3 App::Options
 
-=head3 autodie
+=pkh App::perlmv
 
-=head3 Carp::Always
+=pkg autodie
 
-=head3 Crypt::PasswdMD5
+=pkg Carp::Always
 
-=head3 Data::Dump
+=pkg Crypt::PasswdMD5
 
-=head3 Data::Schema
+=pkg Data::Dump
 
-=head3 Date::Manip
+=pkg Data::Dump::Partial
 
-=head3 Date::Parse
+=pkg Data::Dump::PHP
 
-=head3 DateTime
+=pkg Data::Schema
 
-=head3 DateTime::Format::DateManip
+=pkg Date::Manip
 
-=head3 DBD::SQLite
+=pkg Date::Parse
 
-=head3 DBI
+=pkg DateTime
 
-=head3 Digest::CRC
+=pkg DateTime::Format::DateManip
 
-=head3 Email::Address
+=pkg DBD::SQLite
 
-=head3 File::HomeDir
+=pkg DBI
 
-=head3 File::Slurp
+=pkg Digest::CRC
 
-=head3 File::Type
+=pkg Email::Address
 
-=head3 Finance::Bank::ID::BCA
+=pkg File::HomeDir
 
-=head3 Finance::Bank::ID::Mandiri
+=pkg File::Slurp
 
-=head3 HTML::Parser
+=pkg File::Type
+
+=pkg Finance::Bank::ID::BCA
+
+=pkg Finance::Bank::ID::Mandiri
+
+=pkg HTML::Parser
 
  HTML::Parser, also contains HTML::Entities, HTML::HeadParser,
  HTML::LinkExtor, HTML::TokeParser
 
-=head3 iCal::Parser
+=pkg iCal::Parser
 
-=head3 Image::Size
+=pkg Image::Size
 
-=head3 JSON
+=pkg JSON
 
-=head3 LWP
+=pkg LWP
 
  libwww-perl, also contains LWP::Simple, HTTP::*, etc.
 
-=head3 Lingua::Han::PinYin
+=pkg Lingua::Han::PinYin
 
-=head3 List::MoreUtils
+=pkg List::MoreUtils
 
-=head3 Log::Any::App
+=pkg Log::Any::App
 
-=head3 Mail::Internet
+=pkg Mail::Internet
 
-=head3 Mail::POP3Client
+=pkg Mail::POP3Client
 
-=head3 Mail::QmailQueue
+=pkg Mail::QmailQueue
 
-=head3 Mail::Sender
+=pkg Mail::Sender
 
-=head3 Mail::Sendmail
+=pkg Mail::Sendmail
 
-=head3 MIME::Parser
+=pkg MIME::Parser
 
-=head3 MP3::Tag
+=pkg MP3::Tag
 
-=head3 Net::BitTorrent::File
+=pkg Net::BitTorrent::File
 
-=head3 Path::Class
+=pkg Path::Class
 
-=head3 Proc::PID::File
+=pkg Proc::PID::File
 
-=head3 Proc::Reliable
+=pkg Proc::Reliable
 
-=head3 REST::Google::Search::Images
+=pkg REST::Google::Search::Images
 
  REST::Google, also contains REST::Google::Search
 
-=head3 Statistics::Descriptive
+=pkg Statistics::Descriptive
 
-=head3 Term::ReadKey
+=pkg Term::ReadKey
 
-=head3 Term::ReadLine
+=pkg Term::ReadLine
 
-=head3 Text::Unaccent
+=pkg Text::Unaccent::PurePerl
 
-=head3 Tie::Cache
+=pkg Tie::Cache
 
-=head3 URI
+=pkg URI
 
  URI, also contains URI::Escape
 
-=head3 URI::Find
+=pkg URI::Find
 
-=head3 WWW::Mechanize
+=pkg WWW::Mechanize
 
-=head3 XML::RSSLite
+=pkg XML::RSSLite
 
-=head3 YAML
+=pkg YAML
 
-=head3 YAML::Syck
+=pkg YAML::Syck
 
-=head3 YAML::Tiny
+=pkg YAML::Tiny
 
-=head3 YAML::XS
+=pkg YAML::XS
 
 =head1 AUTHOR
 

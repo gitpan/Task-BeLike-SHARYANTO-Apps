@@ -5,6 +5,5 @@ META.yml
 README
 dist.ini
 lib/Task/BeLike/SHARYANTO/Apps.pm
-t/release-pod-coverage.t
-t/release-pod-syntax.t
+t/00-compile.t
 t/task-bogus.t
