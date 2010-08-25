@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.06';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.07';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
@@ -16,7 +16,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
@@ -88,7 +88,7 @@ RJBS, so blame him if you want :-)
 
 =head3 L<Email::Address>
 
-=head3 L<File::Chdir>
+=head3 L<File::chdir>
 
 =head3 L<File::Flock>
 

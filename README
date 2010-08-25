@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.06
+    version 0.07
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -47,7 +47,7 @@ TASK CONTENTS
    DBI
    Digest::CRC
    Email::Address
-   File::Chdir
+   File::chdir
    File::Flock
    File::HomeDir
    File::Slurp

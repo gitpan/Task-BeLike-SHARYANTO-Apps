@@ -34,12 +34,12 @@ requires:
   DateTime::Format::DateManip: 0
   Digest::CRC: 0
   Email::Address: 0
-  File::Chdir: 0
   File::Flock: 0
   File::HomeDir: 0
   File::Slurp: 0
   File::Type: 0
   File::Which: 0
+  File::chdir: 0
   Finance::Bank::ID::BCA: 0
   Finance::Bank::ID::Mandiri: 0
   HTML::Parser: 0
@@ -83,4 +83,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Apps/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Apps
-version: 0.06
+version: 0.07

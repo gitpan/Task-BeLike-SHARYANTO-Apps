@@ -30,12 +30,11 @@ my %module_build_args = (
                                        'DBI' => '0',
                                        'Net::BitTorrent::File' => '0',
                                        'File::HomeDir' => '0',
-                                       'File::Chdir' => '0',
                                        'String::ShellQuote' => '0',
                                        'Proc::Reliable' => '0',
                                        'Data::ModeMerge' => '0',
-                                       'Mail::Sendmail' => '0',
                                        'XML::RSSLite' => '0',
+                                       'Mail::Sendmail' => '0',
                                        'Path::Class' => '0',
                                        'Finance::Bank::ID::Mandiri' => '0',
                                        'File::Which' => '0',
@@ -75,6 +74,7 @@ my %module_build_args = (
                                        'DBD::SQLite' => '0',
                                        'Mail::QmailQueue' => '0',
                                        'Data::Dump::Partial' => '0',
+                                       'File::chdir' => '0',
                                        'Mouse' => '0',
                                        'Proc::PID::File' => '0',
                                        'File::Slurp' => '0',
@@ -88,7 +88,7 @@ my %module_build_args = (
                        'configure_requires' => {
                                                  'Module::Build' => '0.3601'
                                                },
-                       'dist_version' => '0.06'
+                       'dist_version' => '0.07'
                      );
 
 
