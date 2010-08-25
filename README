@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.05
+    version 0.06
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -27,14 +27,17 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    Algorithm::BinPack
+   Any::Moose
    App::Options
    App::perlmv
    autodie
+   Capture::Tiny
    Carp::Always
    Crypt::PasswdMD5
    Data::Dump
    Data::Dump::Partial
    Data::Dump::PHP
+   Data::ModeMerge
    Data::Schema
    Date::Manip
    Date::Parse
@@ -44,9 +47,12 @@ TASK CONTENTS
    DBI
    Digest::CRC
    Email::Address
+   File::Chdir
+   File::Flock
    File::HomeDir
    File::Slurp
    File::Type
+   File::Which
    Finance::Bank::ID::BCA
    Finance::Bank::ID::Mandiri
    HTML::Parser
@@ -68,6 +74,9 @@ TASK CONTENTS
    Mail::Sender
    Mail::Sendmail
    MIME::Parser
+   Module::CoreList
+   Moose
+   Mouse
    MP3::Tag
    Net::BitTorrent::File
    Path::Class
@@ -77,6 +86,7 @@ TASK CONTENTS
      REST::Google, also contains REST::Google::Search
 
    Statistics::Descriptive
+   String::ShellQuote
    Term::ReadKey
    Term::ReadLine
    Text::Unaccent::PurePerl

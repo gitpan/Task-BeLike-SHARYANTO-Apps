@@ -6,7 +6,7 @@ build_requires:
   Module::Build: 0.3601
 configure_requires:
   Module::Build: 0.3601
-generated_by: 'Dist::Zilla version 2.101241'
+generated_by: 'Dist::Zilla version 2.101230'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,8 +15,10 @@ name: Task-BeLike-SHARYANTO-Apps
 recommends: {}
 requires:
   Algorithm::BinPack: 0
+  Any::Moose: 0
   App::Options: 0
   App::perlmv: 0
+  Capture::Tiny: 0
   Carp::Always: 0
   Crypt::PasswdMD5: 0
   DBD::SQLite: 0
@@ -24,6 +26,7 @@ requires:
   Data::Dump: 0
   Data::Dump::PHP: 0
   Data::Dump::Partial: 0
+  Data::ModeMerge: 0
   Data::Schema: 0
   Date::Manip: 0
   Date::Parse: 0
@@ -31,9 +34,12 @@ requires:
   DateTime::Format::DateManip: 0
   Digest::CRC: 0
   Email::Address: 0
+  File::Chdir: 0
+  File::Flock: 0
   File::HomeDir: 0
   File::Slurp: 0
   File::Type: 0
+  File::Which: 0
   Finance::Bank::ID::BCA: 0
   Finance::Bank::ID::Mandiri: 0
   HTML::Parser: 0
@@ -50,12 +56,16 @@ requires:
   Mail::QmailQueue: 0
   Mail::Sender: 0
   Mail::Sendmail: 0
+  Module::CoreList: 0
+  Moose: 0
+  Mouse: 0
   Net::BitTorrent::File: 0
   Path::Class: 0
   Proc::PID::File: 0
   Proc::Reliable: 0
   REST::Google::Search::Images: 0
   Statistics::Descriptive: 0
+  String::ShellQuote: 0
   Term::ReadKey: 0
   Term::ReadLine: 0
   Text::Unaccent::PurePerl: 0
@@ -71,6 +81,6 @@ requires:
   autodie: 0
   iCal::Parser: 0
 resources:
-  homepage: http://search.cpan.org/dist/perl-Task-BeLike-SHARYANTO-Apps/
+  homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Apps/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Apps
-version: 0.05
+version: 0.06

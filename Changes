@@ -1,5 +1,10 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
+0.06    2010-08-21
+
+        Add modules: Any::Moose, Capture::Tiny, Data::ModeMerge, File::Chdir,
+        File::Which, Module::CoreList, Moose, Mouse, String::ShellQuote
+
 0.05    2010-07-01
 
         Fix typo.
