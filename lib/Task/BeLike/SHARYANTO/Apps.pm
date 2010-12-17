@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.07';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.08';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
@@ -16,7 +16,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 DESCRIPTION
 
@@ -46,150 +46,164 @@ RJBS, so blame him if you want :-)
 
 =head2 Included modules
 
-=head3 L<Algorithm::BinPack>
+=head3 Algorithm::BinPack
 
-=head3 L<Any::Moose>
+=head3 Any::Moose
 
-=head3 L<App::Options>
+=head3 App::Options
 
-=head3 L<App::perlmv>
+=head3 App::cpanminus
 
-=head3 L<autodie>
+=head3 App::perlmv
 
-=head3 L<Capture::Tiny>
+=head3 autodie
 
-=head3 L<Carp::Always>
+=head3 Capture::Tiny
 
-=head3 L<Crypt::PasswdMD5>
+=head3 Carp::Always
 
-=head3 L<Data::Dump>
+=head3 Crypt::PasswdMD5
 
-=head3 L<Data::Dump::Partial>
+=head3 Data::Dump
 
-=head3 L<Data::Dump::PHP>
+=head3 Data::Dump::OneLine
 
-=head3 L<Data::ModeMerge>
+=head3 Data::Dump::Partial
 
-=head3 L<Data::Schema>
+=head3 Data::Dump::PHP
 
-=head3 L<Date::Manip>
+=head3 Data::Format::Pretty::Console
 
-=head3 L<Date::Parse>
+=head3 Data::ModeMerge
 
-=head3 L<DateTime>
+=head3 Data::Schema
 
-=head3 L<DateTime::Format::DateManip>
+=head3 Date::Manip
 
-=head3 L<DBD::SQLite>
+=head3 Date::Parse
 
-=head3 L<DBI>
+=head3 DateTime
 
-=head3 L<Digest::CRC>
+=head3 DateTime::Format::DateManip
 
-=head3 L<Email::Address>
+=head3 DateTime::Format::MySQL
 
-=head3 L<File::chdir>
+=head3 DBD::SQLite
 
-=head3 L<File::Flock>
+=head3 DBI
 
-=head3 L<File::HomeDir>
+=head3 Digest::CRC
 
-=head3 L<File::Slurp>
+=head3 Email::Address
 
-=head3 L<File::Type>
+=head3 File::chdir
 
-=head3 L<File::Which>
+=head3 File::Flock
 
-=head3 L<Finance::Bank::ID::BCA>
+=head3 File::HomeDir
 
-=head3 L<Finance::Bank::ID::Mandiri>
+=head3 File::Slurp
 
-=head3 L<HTML::Parser>
+=head3 File::Type
+
+=head3 File::Which
+
+=head3 Finance::Bank::ID::BCA
+
+=head3 Finance::Bank::ID::Mandiri
+
+=head3 HTML::Parser
 
  HTML::Parser, also contains HTML::Entities, HTML::HeadParser,
  HTML::LinkExtor, HTML::TokeParser
 
-=head3 L<iCal::Parser>
+=head3 iCal::Parser
 
-=head3 L<Image::Size>
+=head3 Image::Size
 
-=head3 L<JSON>
+=head3 JSON
 
-=head3 L<LWP>
+=head3 LWP
 
  libwww-perl, also contains LWP::Simple, HTTP::*, etc.
 
-=head3 L<Lingua::Han::PinYin>
+=head3 Lingua::Han::PinYin
 
-=head3 L<List::MoreUtils>
+=head3 List::MoreUtils
 
-=head3 L<Log::Any::App>
+=head3 Log::Any::App
 
-=head3 L<Mail::Internet>
+=head3 Mail::Internet
 
-=head3 L<Mail::POP3Client>
+=head3 Mail::POP3Client
 
-=head3 L<Mail::QmailQueue>
+=head3 Mail::QmailQueue
 
-=head3 L<Mail::Sender>
+=head3 Mail::Sender
 
-=head3 L<Mail::Sendmail>
+=head3 Mail::Sendmail
 
-=head3 L<MIME::Parser>
+=head3 MIME::Parser
 
-=head3 L<Module::CoreList>
+=head3 Module::CoreList
 
-=head3 L<Moose>
+=head3 Moose
 
-=head3 L<Mouse>
+=head3 Mouse
 
-=head3 L<MP3::Tag>
+=head3 MP3::Tag
 
-=head3 L<Net::BitTorrent::File>
+=head3 Net::BitTorrent::File
 
-=head3 L<Path::Class>
+=head3 Number::Format
 
-=head3 L<Proc::PID::File>
+=head3 Package::Alias
 
-=head3 L<Proc::Reliable>
+=head3 Path::Class
 
-=head3 L<REST::Google::Search::Images>
+=head3 Proc::PID::File
+
+=head3 Proc::Reliable
+
+=head3 REST::Google::Search::Images
 
  REST::Google, also contains REST::Google::Search
 
-=head3 L<Statistics::Descriptive>
+=head3 Statistics::Descriptive
 
-=head3 L<String::ShellQuote>
+=head3 String::ShellQuote
 
-=head3 L<Term::ReadKey>
+=head3 Term::ReadKey
 
-=head3 L<Term::ReadLine>
+=head3 Term::ReadLine
 
-=head3 L<Text::Unaccent::PurePerl>
+=head3 Text::Unaccent::PurePerl
 
-=head3 L<Tie::Cache>
+=head3 Tie::Cache
 
-=head3 L<URI>
+=head3 Try::Tiny
+
+=head3 URI
 
  URI, also contains URI::Escape
 
-=head3 L<URI::Find>
+=head3 URI::Find
 
-=head3 L<WWW::Mechanize>
+=head3 WWW::Mechanize
 
-=head3 L<XML::RSSLite>
+=head3 XML::RSSLite
 
-=head3 L<YAML>
+=head3 YAML
 
-=head3 L<YAML::Syck>
+=head3 YAML::Syck
 
-=head3 L<YAML::Tiny>
+=head3 YAML::Tiny
 
-=head3 L<YAML::XS>
+=head3 YAML::XS
 
 =head1 AUTHOR
 
-  Steven Haryanto <stevenharyanto@gmail.com>
+Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

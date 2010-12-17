@@ -1,5 +1,11 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
+0.08    2010-12-17
+
+        Add modules: Data::Dump::OneLine, Data::Format::Pretty::Console,
+        Try::Tiny, DateTime::Format::MySQL, Number::Format, App::cpanminus,
+        Package::Alias.
+
 0.07    2010-08-21
 
         Typo: File::chdir
@@ -9,6 +15,7 @@ Revision history for Task-BeLike-SHARYANTO-Apps
 
         Add modules: Any::Moose, Capture::Tiny, Data::ModeMerge, File::Chdir,
         File::Which, Module::CoreList, Moose, Mouse, String::ShellQuote
+
 
 0.05    2010-07-01
 
@@ -25,6 +32,7 @@ Revision history for Task-BeLike-SHARYANTO-Apps
 0.03    2010-04-29
 
         Replace WWW::Google::Images with REST::Google::Search::Images.
+
 
 0.02    2010-04-21
 

@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.07
+    version 0.08
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -29,20 +29,24 @@ TASK CONTENTS
    Algorithm::BinPack
    Any::Moose
    App::Options
+   App::cpanminus
    App::perlmv
    autodie
    Capture::Tiny
    Carp::Always
    Crypt::PasswdMD5
    Data::Dump
+   Data::Dump::OneLine
    Data::Dump::Partial
    Data::Dump::PHP
+   Data::Format::Pretty::Console
    Data::ModeMerge
    Data::Schema
    Date::Manip
    Date::Parse
    DateTime
    DateTime::Format::DateManip
+   DateTime::Format::MySQL
    DBD::SQLite
    DBI
    Digest::CRC
@@ -79,6 +83,8 @@ TASK CONTENTS
    Mouse
    MP3::Tag
    Net::BitTorrent::File
+   Number::Format
+   Package::Alias
    Path::Class
    Proc::PID::File
    Proc::Reliable
@@ -91,6 +97,7 @@ TASK CONTENTS
    Term::ReadLine
    Text::Unaccent::PurePerl
    Tie::Cache
+   Try::Tiny
    URI
      URI, also contains URI::Escape
 
@@ -102,7 +109,7 @@ TASK CONTENTS
    YAML::Tiny
    YAML::XS
 AUTHOR
-      Steven Haryanto <stevenharyanto@gmail.com>
+    Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by Steven Haryanto.
