@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.08';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.09';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
@@ -16,7 +16,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 DESCRIPTION
 
@@ -51,8 +51,6 @@ RJBS, so blame him if you want :-)
 =head3 Any::Moose
 
 =head3 App::Options
-
-=head3 App::cpanminus
 
 =head3 App::perlmv
 
@@ -145,8 +143,6 @@ RJBS, so blame him if you want :-)
 
 =head3 MIME::Parser
 
-=head3 Module::CoreList
-
 =head3 Moose
 
 =head3 Mouse
@@ -207,7 +203,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Steven Haryanto.
+This software is copyright (c) 2011 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

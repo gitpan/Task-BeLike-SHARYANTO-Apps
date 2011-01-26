@@ -1,5 +1,10 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
+0.09    2011-01-26
+
+        Move some modules to ::Devel: App::cpanminus, App::FatPacker,
+        CPAN::Mini, Module::CoreList
+
 0.08    2010-12-17
 
         Add modules: Data::Dump::OneLine, Data::Format::Pretty::Console,
