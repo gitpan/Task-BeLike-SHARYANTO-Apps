@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102343, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -33,18 +33,22 @@ requires:
   Date::Manip: 0
   Date::Parse: 0
   DateTime: 0
+  DateTime::BusinessHours: 0
   DateTime::Format::DateManip: 0
   DateTime::Format::MySQL: 0
   Digest::CRC: 0
   Email::Address: 0
   File::Flock: 0
   File::HomeDir: 0
+  File::RsyBak: 0
   File::Slurp: 0
+  File::Slurp::Shortcuts: 0
   File::Type: 0
   File::Which: 0
   File::chdir: 0
   Finance::Bank::ID::BCA: 0
   Finance::Bank::ID::Mandiri: 0
+  Git::Bunch: 0
   HTML::Parser: 0
   Image::Size: 0
   JSON: 0
@@ -70,6 +74,7 @@ requires:
   REST::Google::Search::Images: 0
   Statistics::Descriptive: 0
   String::ShellQuote: 0
+  Sub::Spec::BashComplete: 0
   Term::ReadKey: 0
   Term::ReadLine: 0
   Text::Unaccent::PurePerl: 0
@@ -88,4 +93,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Apps/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Apps
-version: 0.09
+version: 0.10

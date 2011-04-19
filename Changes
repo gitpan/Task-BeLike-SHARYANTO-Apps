@@ -1,5 +1,10 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
+0.10    2011-04-19
+
+        Add modules: DateTime::BusinessHours, File::RsyBak,
+        File::Slurp::Shortcuts, Git::Bunch, Sub::Spec::BashComplete
+
 0.09    2011-01-26
 
         Move some modules to ::Devel: App::cpanminus, App::FatPacker,

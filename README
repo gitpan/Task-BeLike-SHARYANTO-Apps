@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.09
+    version 0.10
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -44,6 +44,7 @@ TASK CONTENTS
    Date::Manip
    Date::Parse
    DateTime
+   DateTime::BusinessHours
    DateTime::Format::DateManip
    DateTime::Format::MySQL
    DBD::SQLite
@@ -53,11 +54,14 @@ TASK CONTENTS
    File::chdir
    File::Flock
    File::HomeDir
+   File::RsyBak
    File::Slurp
+   File::Slurp::Shortcuts
    File::Type
    File::Which
    Finance::Bank::ID::BCA
    Finance::Bank::ID::Mandiri
+   Git::Bunch
    HTML::Parser
      HTML::Parser, also contains HTML::Entities, HTML::HeadParser,
      HTML::LinkExtor, HTML::TokeParser
@@ -91,6 +95,7 @@ TASK CONTENTS
 
    Statistics::Descriptive
    String::ShellQuote
+   Sub::Spec::BashComplete
    Term::ReadKey
    Term::ReadLine
    Text::Unaccent::PurePerl

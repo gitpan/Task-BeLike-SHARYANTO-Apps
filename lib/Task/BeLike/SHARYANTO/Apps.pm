@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Apps;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.09';
+  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.10';
 }
 # ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
@@ -16,7 +16,7 @@ Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO'
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 DESCRIPTION
 
@@ -82,6 +82,8 @@ RJBS, so blame him if you want :-)
 
 =head3 DateTime
 
+=head3 DateTime::BusinessHours
+
 =head3 DateTime::Format::DateManip
 
 =head3 DateTime::Format::MySQL
@@ -100,7 +102,11 @@ RJBS, so blame him if you want :-)
 
 =head3 File::HomeDir
 
+=head3 File::RsyBak
+
 =head3 File::Slurp
+
+=head3 File::Slurp::Shortcuts
 
 =head3 File::Type
 
@@ -109,6 +115,8 @@ RJBS, so blame him if you want :-)
 =head3 Finance::Bank::ID::BCA
 
 =head3 Finance::Bank::ID::Mandiri
+
+=head3 Git::Bunch
 
 =head3 HTML::Parser
 
@@ -168,6 +176,8 @@ RJBS, so blame him if you want :-)
 =head3 Statistics::Descriptive
 
 =head3 String::ShellQuote
+
+=head3 Sub::Spec::BashComplete
 
 =head3 Term::ReadKey
 
