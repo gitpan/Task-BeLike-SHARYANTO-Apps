@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
+generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -40,6 +40,7 @@ requires:
   Email::Address: 0
   File::Flock: 0
   File::HomeDir: 0
+  File::LibMagic: 0
   File::RsyBak: 0
   File::Slurp: 0
   File::Slurp::Shortcuts: 0
@@ -63,6 +64,9 @@ requires:
   Mail::QmailQueue: 0
   Mail::Sender: 0
   Mail::Sendmail: 0
+  Media::Type::Simple: 0
+  Mojo::DOM: 0
+  Moo: 0
   Moose: 0
   Mouse: 0
   Net::BitTorrent::File: 0
@@ -93,4 +97,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Apps/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Apps
-version: 0.10
+version: 0.11

@@ -1,5 +1,9 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
+0.11    2011-06-15
+
+        Add modules: Media::Type::Simple, File::LibMagic, Moo, Mojo::DOM.
+
 0.10    2011-04-19
 
         Add modules: DateTime::BusinessHours, File::RsyBak,

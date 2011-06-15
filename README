@@ -3,7 +3,7 @@ NAME
     SHARYANTO's current applications
 
 VERSION
-    version 0.10
+    version 0.11
 
 DESCRIPTION
     This task will install modules currently used in all my current
@@ -54,10 +54,13 @@ TASK CONTENTS
    File::chdir
    File::Flock
    File::HomeDir
+   File::LibMagic
    File::RsyBak
    File::Slurp
    File::Slurp::Shortcuts
    File::Type
+     Depcecated, will be replaced by File::LibMagic exclusively in the future.
+
    File::Which
    Finance::Bank::ID::BCA
    Finance::Bank::ID::Mandiri
@@ -80,7 +83,10 @@ TASK CONTENTS
    Mail::QmailQueue
    Mail::Sender
    Mail::Sendmail
+   Media::Type::Simple
    MIME::Parser
+   Mojo::DOM
+   Moo
    Moose
    Mouse
    MP3::Tag
