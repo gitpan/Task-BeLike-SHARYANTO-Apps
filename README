@@ -1,70 +1,65 @@
 NAME
-    Task::BeLike::SHARYANTO::Apps - Install modules currently used in all
-    SHARYANTO's current applications
+    Task::BeLike::SHARYANTO::Apps - Install modules currently used in
+    SHARYANTO's applications
 
 VERSION
-    version 0.11
+    version 0.12
 
 DESCRIPTION
     This task will install modules currently used in all my current
-    applications. Not included are modules:
+    applications. Not included are:
 
-    *   already in 5.10 core;
+    *   modules already in 5.10 core;
 
-    *   used in development (see Task::BeLike::SHARYANTO::Devel);
+    *   modules written by me (see Task::BeLike::SHARYANTO::Authored);
 
-    *   required by my very specific applications;
+    *   modules used in development (see Task::BeLike::SHARYANTO::Devel);
 
-    *   required by my old/obsolete applications;
+    *   modules required by my very specific applications;
+
+    *   modules required by my old/obsolete applications;
+
+    *   other Task:: modules;
 
     The purpose of this distribution is to make it easy to setup an
     environment with all my required/preferred modules. Thus, this
     distribution is probably only useful to me or people who use my
-    applications. I apologize if the existence of this distribution on CPAN
-    annoys you. In my defense, I am just following a trend started by RJBS,
-    so blame him if you want :-)
+    applications.
 
 TASK CONTENTS
   Included modules
    Algorithm::BinPack
    Any::Moose
+    # =pkg App::IniUtils
+
    App::Options
-   App::perlmv
+   App::TimeTracker
    autodie
    Capture::Tiny
    Carp::Always
    Crypt::PasswdMD5
+   Dancer
    Data::Dump
-   Data::Dump::OneLine
-   Data::Dump::Partial
-   Data::Dump::PHP
-   Data::Format::Pretty::Console
-   Data::ModeMerge
-   Data::Schema
    Date::Manip
    Date::Parse
    DateTime
-   DateTime::BusinessHours
    DateTime::Format::DateManip
    DateTime::Format::MySQL
    DBD::SQLite
    DBI
+   Devel::Platform::Info
    Digest::CRC
    Email::Address
    File::chdir
    File::Flock
    File::HomeDir
    File::LibMagic
-   File::RsyBak
    File::Slurp
-   File::Slurp::Shortcuts
    File::Type
      Depcecated, will be replaced by File::LibMagic exclusively in the future.
 
    File::Which
-   Finance::Bank::ID::BCA
-   Finance::Bank::ID::Mandiri
-   Git::Bunch
+   Finance::Quote::Convert::WebserviceX
    HTML::Parser
      HTML::Parser, also contains HTML::Entities, HTML::HeadParser,
      HTML::LinkExtor, HTML::TokeParser
@@ -76,8 +71,8 @@ TASK CONTENTS
      libwww-perl, also contains LWP::Simple, HTTP::*, etc.
 
    Lingua::Han::PinYin
+   Lingua::ZH::WordSegmenter
    List::MoreUtils
-   Log::Any::App
    Mail::Internet
    Mail::POP3Client
    Mail::QmailQueue
@@ -101,7 +96,6 @@ TASK CONTENTS
 
    Statistics::Descriptive
    String::ShellQuote
-   Sub::Spec::BashComplete
    Term::ReadKey
    Term::ReadLine
    Text::Unaccent::PurePerl
@@ -111,6 +105,7 @@ TASK CONTENTS
      URI, also contains URI::Escape
 
    URI::Find
+   UUID::Random
    WWW::Mechanize
    XML::RSSLite
    YAML
@@ -121,7 +116,7 @@ AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Steven Haryanto.
+    This software is copyright (c) 2012 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

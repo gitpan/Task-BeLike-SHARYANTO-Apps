@@ -1,5 +1,5 @@
 ---
-abstract: "Install modules currently used in all SHARYANTO's current applications"
+abstract: "Install modules currently used in SHARYANTO's applications"
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 build_requires:
@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,46 +17,37 @@ requires:
   Algorithm::BinPack: 0
   Any::Moose: 0
   App::Options: 0
-  App::perlmv: 0
+  App::TimeTracker: 0
   Capture::Tiny: 0
   Carp::Always: 0
   Crypt::PasswdMD5: 0
   DBD::SQLite: 0
   DBI: 0
+  Dancer: 0
   Data::Dump: 0
-  Data::Dump::OneLine: 0
-  Data::Dump::PHP: 0
-  Data::Dump::Partial: 0
-  Data::Format::Pretty::Console: 0
-  Data::ModeMerge: 0
-  Data::Schema: 0
   Date::Manip: 0
   Date::Parse: 0
   DateTime: 0
-  DateTime::BusinessHours: 0
   DateTime::Format::DateManip: 0
   DateTime::Format::MySQL: 0
+  Devel::Platform::Info: 0
   Digest::CRC: 0
   Email::Address: 0
   File::Flock: 0
   File::HomeDir: 0
   File::LibMagic: 0
-  File::RsyBak: 0
   File::Slurp: 0
-  File::Slurp::Shortcuts: 0
   File::Type: 0
   File::Which: 0
   File::chdir: 0
-  Finance::Bank::ID::BCA: 0
-  Finance::Bank::ID::Mandiri: 0
-  Git::Bunch: 0
+  Finance::Quote::Convert::WebserviceX: 0
   HTML::Parser: 0
   Image::Size: 0
   JSON: 0
   LWP: 0
   Lingua::Han::PinYin: 0
+  Lingua::ZH::WordSegmenter: 0
   List::MoreUtils: 0
-  Log::Any::App: 0
   MIME::Parser: 0
   MP3::Tag: 0
   Mail::Internet: 0
@@ -78,7 +69,6 @@ requires:
   REST::Google::Search::Images: 0
   Statistics::Descriptive: 0
   String::ShellQuote: 0
-  Sub::Spec::BashComplete: 0
   Term::ReadKey: 0
   Term::ReadLine: 0
   Text::Unaccent::PurePerl: 0
@@ -86,6 +76,7 @@ requires:
   Try::Tiny: 0
   URI: 0
   URI::Find: 0
+  UUID::Random: 0
   WWW::Mechanize: 0
   XML::RSSLite: 0
   YAML: 0
@@ -97,4 +88,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Apps/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Apps
-version: 0.11
+version: 0.12

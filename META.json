@@ -1,0 +1,112 @@
+{
+   "abstract" : "Install modules currently used in SHARYANTO's applications",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BeLike-SHARYANTO-Apps",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Algorithm::BinPack" : 0,
+            "Any::Moose" : 0,
+            "App::Options" : 0,
+            "App::TimeTracker" : 0,
+            "Capture::Tiny" : 0,
+            "Carp::Always" : 0,
+            "Crypt::PasswdMD5" : 0,
+            "DBD::SQLite" : 0,
+            "DBI" : 0,
+            "Dancer" : 0,
+            "Data::Dump" : 0,
+            "Date::Manip" : 0,
+            "Date::Parse" : 0,
+            "DateTime" : 0,
+            "DateTime::Format::DateManip" : 0,
+            "DateTime::Format::MySQL" : 0,
+            "Devel::Platform::Info" : 0,
+            "Digest::CRC" : 0,
+            "Email::Address" : 0,
+            "File::Flock" : 0,
+            "File::HomeDir" : 0,
+            "File::LibMagic" : 0,
+            "File::Slurp" : 0,
+            "File::Type" : 0,
+            "File::Which" : 0,
+            "File::chdir" : 0,
+            "Finance::Quote::Convert::WebserviceX" : 0,
+            "HTML::Parser" : 0,
+            "Image::Size" : 0,
+            "JSON" : 0,
+            "LWP" : 0,
+            "Lingua::Han::PinYin" : 0,
+            "Lingua::ZH::WordSegmenter" : 0,
+            "List::MoreUtils" : 0,
+            "MIME::Parser" : 0,
+            "MP3::Tag" : 0,
+            "Mail::Internet" : 0,
+            "Mail::POP3Client" : 0,
+            "Mail::QmailQueue" : 0,
+            "Mail::Sender" : 0,
+            "Mail::Sendmail" : 0,
+            "Media::Type::Simple" : 0,
+            "Mojo::DOM" : 0,
+            "Moo" : 0,
+            "Moose" : 0,
+            "Mouse" : 0,
+            "Net::BitTorrent::File" : 0,
+            "Number::Format" : 0,
+            "Package::Alias" : 0,
+            "Path::Class" : 0,
+            "Proc::PID::File" : 0,
+            "Proc::Reliable" : 0,
+            "REST::Google::Search::Images" : 0,
+            "Statistics::Descriptive" : 0,
+            "String::ShellQuote" : 0,
+            "Term::ReadKey" : 0,
+            "Term::ReadLine" : 0,
+            "Text::Unaccent::PurePerl" : 0,
+            "Tie::Cache" : 0,
+            "Try::Tiny" : 0,
+            "URI" : 0,
+            "URI::Find" : 0,
+            "UUID::Random" : 0,
+            "WWW::Mechanize" : 0,
+            "XML::RSSLite" : 0,
+            "YAML" : 0,
+            "YAML::Syck" : 0,
+            "YAML::Tiny" : 0,
+            "YAML::XS" : 0,
+            "autodie" : 0,
+            "iCal::Parser" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Apps/",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Apps"
+      }
+   },
+   "version" : "0.12"
+}
+

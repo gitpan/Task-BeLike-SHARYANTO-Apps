@@ -1,58 +1,66 @@
 Revision history for Task-BeLike-SHARYANTO-Apps
 
-0.11    2011-06-15
+0.12    2011-07-12 (SHARYANTO)
+
+        Remove my modules (listed in Task::BeLike::SHARYANTO::Authored).
+
+
+0.11    2011-06-15 (SHARYANTO)
 
         Add modules: Media::Type::Simple, File::LibMagic, Moo, Mojo::DOM.
 
-0.10    2011-04-19
+
+0.10    2011-04-19 (SHARYANTO)
 
         Add modules: DateTime::BusinessHours, File::RsyBak,
         File::Slurp::Shortcuts, Git::Bunch, Sub::Spec::BashComplete
 
-0.09    2011-01-26
+
+0.09    2011-01-26 (SHARYANTO)
 
         Move some modules to ::Devel: App::cpanminus, App::FatPacker,
         CPAN::Mini, Module::CoreList
 
-0.08    2010-12-17
+
+0.08    2010-12-17 (SHARYANTO)
 
         Add modules: Data::Dump::OneLine, Data::Format::Pretty::Console,
         Try::Tiny, DateTime::Format::MySQL, Number::Format, App::cpanminus,
         Package::Alias.
 
-0.07    2010-08-21
+0.07    2010-08-21 (SHARYANTO)
 
         Typo: File::chdir
 
 
-0.06    2010-08-21
+0.06    2010-08-21 (SHARYANTO)
 
         Add modules: Any::Moose, Capture::Tiny, Data::ModeMerge, File::Chdir,
         File::Which, Module::CoreList, Moose, Mouse, String::ShellQuote
 
 
-0.05    2010-07-01
+0.05    2010-07-01 (SHARYANTO)
 
         Fix typo.
 
 
-0.04    2010-06-30
+0.04    2010-06-30 (SHARYANTO)
 
         Replace Text::Unaccent with Text::Unaccent::PurePerl.
 
         Add App::perlmv, Data::Dump::PHP, Data::Dump::Partial.
 
 
-0.03    2010-04-29
+0.03    2010-04-29 (SHARYANTO)
 
         Replace WWW::Google::Images with REST::Google::Search::Images.
 
 
-0.02    2010-04-21
+0.02    2010-04-21 (SHARYANTO)
 
         Fixed POD error.
 
 
-0.01    2010-04-21
+0.01    2010-04-21 (SHARYANTO)
 
         First release.

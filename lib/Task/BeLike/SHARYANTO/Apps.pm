@@ -1,46 +1,46 @@
 package Task::BeLike::SHARYANTO::Apps;
-BEGIN {
-  $Task::BeLike::SHARYANTO::Apps::VERSION = '0.11';
-}
-# ABSTRACT: Install modules currently used in all SHARYANTO's current applications
 
+our $VERSION = '0.12'; # VERSION
 
 1;
+# ABSTRACT: Install modules currently used in SHARYANTO's applications
+
 
 __END__
 =pod
 
 =head1 NAME
 
-Task::BeLike::SHARYANTO::Apps - Install modules currently used in all SHARYANTO's current applications
+Task::BeLike::SHARYANTO::Apps - Install modules currently used in SHARYANTO's applications
 
 =head1 VERSION
 
-version 0.11
+version 0.12
 
 =head1 DESCRIPTION
 
-This task will install modules currently used in all my current
-applications. Not included are modules:
+This task will install modules currently used in all my current applications.
+Not included are:
 
 =over 4
 
-=item * already in 5.10 core;
+=item * modules already in 5.10 core;
 
-=item * used in development (see L<Task::BeLike::SHARYANTO::Devel>);
+=item * modules written by me (see L<Task::BeLike::SHARYANTO::Authored>);
 
-=item * required by my very specific applications;
+=item * modules used in development (see L<Task::BeLike::SHARYANTO::Devel>);
 
-=item * required by my old/obsolete applications;
+=item * modules required by my very specific applications;
+
+=item * modules required by my old/obsolete applications;
+
+=item * other Task:: modules;
 
 =back
 
-The purpose of this distribution is to make it easy to setup an
-environment with all my required/preferred modules. Thus, this
-distribution is probably only useful to me or people who use my
-applications. I apologize if the existence of this distribution on
-CPAN annoys you. In my defense, I am just following a trend started by
-RJBS, so blame him if you want :-)
+The purpose of this distribution is to make it easy to setup an environment with
+all my required/preferred modules. Thus, this distribution is probably only
+useful to me or people who use my applications.
 
 =head1 TASK CONTENTS
 
@@ -50,9 +50,11 @@ RJBS, so blame him if you want :-)
 
 =head3 L<Any::Moose>
 
+# =pkg App::IniUtils
+
 =head3 L<App::Options>
 
-=head3 L<App::perlmv>
+=head3 L<App::TimeTracker>
 
 =head3 L<autodie>
 
@@ -62,27 +64,15 @@ RJBS, so blame him if you want :-)
 
 =head3 L<Crypt::PasswdMD5>
 
+=head3 L<Dancer>
+
 =head3 L<Data::Dump>
-
-=head3 L<Data::Dump::OneLine>
-
-=head3 L<Data::Dump::Partial>
-
-=head3 L<Data::Dump::PHP>
-
-=head3 L<Data::Format::Pretty::Console>
-
-=head3 L<Data::ModeMerge>
-
-=head3 L<Data::Schema>
 
 =head3 L<Date::Manip>
 
 =head3 L<Date::Parse>
 
 =head3 L<DateTime>
-
-=head3 L<DateTime::BusinessHours>
 
 =head3 L<DateTime::Format::DateManip>
 
@@ -91,6 +81,8 @@ RJBS, so blame him if you want :-)
 =head3 L<DBD::SQLite>
 
 =head3 L<DBI>
+
+=head3 L<Devel::Platform::Info>
 
 =head3 L<Digest::CRC>
 
@@ -104,11 +96,7 @@ RJBS, so blame him if you want :-)
 
 =head3 L<File::LibMagic>
 
-=head3 L<File::RsyBak>
-
 =head3 L<File::Slurp>
-
-=head3 L<File::Slurp::Shortcuts>
 
 =head3 L<File::Type>
 
@@ -116,11 +104,7 @@ RJBS, so blame him if you want :-)
 
 =head3 L<File::Which>
 
-=head3 L<Finance::Bank::ID::BCA>
-
-=head3 L<Finance::Bank::ID::Mandiri>
-
-=head3 L<Git::Bunch>
+=head3 L<Finance::Quote::Convert::WebserviceX>
 
 =head3 L<HTML::Parser>
 
@@ -139,9 +123,9 @@ RJBS, so blame him if you want :-)
 
 =head3 L<Lingua::Han::PinYin>
 
-=head3 L<List::MoreUtils>
+=head3 L<Lingua::ZH::WordSegmenter>
 
-=head3 L<Log::Any::App>
+=head3 L<List::MoreUtils>
 
 =head3 L<Mail::Internet>
 
@@ -187,8 +171,6 @@ RJBS, so blame him if you want :-)
 
 =head3 L<String::ShellQuote>
 
-=head3 L<Sub::Spec::BashComplete>
-
 =head3 L<Term::ReadKey>
 
 =head3 L<Term::ReadLine>
@@ -204,6 +186,8 @@ RJBS, so blame him if you want :-)
  URI, also contains URI::Escape
 
 =head3 L<URI::Find>
+
+=head3 L<UUID::Random>
 
 =head3 L<WWW::Mechanize>
 
@@ -223,7 +207,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Steven Haryanto.
+This software is copyright (c) 2012 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
